@@ -10,11 +10,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Expecto" Version="8.9.0" />
+      <ProjectReference Include="..\BlackJack\BlackJack.fsproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\BlackJack.fsproj" />
+      <PackageReference Include="Expecto" Version="8.9.0" />
     </ItemGroup>
 
 </Project>

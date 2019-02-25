@@ -29,7 +29,6 @@ let modelTests =
   
 [<Tests>]
 let logicTests =
-  
   let ace = suit.[0]
   let card2 = suit.[2 - 1]
   let card3 = suit.[3 - 1]
@@ -68,5 +67,4 @@ let logicTests =
 
 [<EntryPointAttribute>]
 let main args =
-  runTestsInAssembly defaultConfig args 
-       
+  runTestsInAssembly defaultConfig args         
